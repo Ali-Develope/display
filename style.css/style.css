@@ -1,0 +1,31 @@
+.div-1 {
+  background: red;
+}
+
+.span-1 {
+  background: cadetblue;
+}
+
+.span-2 {
+  background-color: purple;
+}
+
+.div-2 {
+  background: greenyellow;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Display block is de default display prop.
+ het zorgt ervoor dat de div de maximale width in beslag neemt. */
+
+/* inline zorgt ervoor dat de div minimale ruimte inneemt. spans hebben de default inline */
+
+/* inline block zorgt ervoor dat de div de minimale ruimte in beslag neemt. 
+ maar het zorgt er ook voor dat jij de width en height kan bepalen. bij de inline kan dat niet.  */
+
+/* display none zorgt ervoor dat het element net doet alsof je div is verdwenen.
+ als jij die div weghaalt dan nemen andere divs die plek van de verwijderde div over. */
